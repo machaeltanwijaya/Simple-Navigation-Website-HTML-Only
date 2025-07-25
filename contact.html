@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Contact page for a simple website project">
+        <meta name="keywords" content="CV, Frontend, Projects">
+        <meta name="author" content="John Doe">
+        <title>Contact - Frontend Developer</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">John Doe</div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Contact Me</h2>
+            <form action="/submit-form" method="post">
+                <label for="name">Name:</label><br />
+                <input type="text" id="name" name="name" required /><br /><br />
+
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="email" required /><br /><br />
+
+                <label for="message">Message:</label><br />
+                <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+                <button type="submit">Send</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; all rights reserved 2025</p>
+        </footer>
+    </body>
+</html>
